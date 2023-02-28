@@ -4,6 +4,12 @@ var cat_pizzas = ["Guerrera", "Pollo", "Hawaiana", "Gordon 4x4", "Vegetariana", 
 var cat_especiales = ["Salchipapas", "Choripapas", "Salchipollo", "Parrilla", "Racion de papas fritas"];
 var cat_refrescos = ["Malta", "Coca-Cola", "Pepsi-Cola", "Maxi", "Postobon", "Colita"];
 
+var hamburguesas=["img/products/hamburguesas/combo"];
+var perros=[""];
+var pizzas=[""];
+var especiales=[""];
+var refrescos=[""];
+
 function cambia_cat() {
     var cat
     cat = document.getElementById('categoria').value
@@ -20,4 +26,9 @@ function cambia_cat() {
         document.form1.tipos.options[i].text = mis_tipos[i]
     }
 
+}
+function choice_photo(){
+    var cho
+    cho=document.getElementById('tipos').value
+    alert(cho)
 }
